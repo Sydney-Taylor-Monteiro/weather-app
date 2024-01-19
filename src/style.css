@@ -57,18 +57,6 @@ main {
   margin: 0;
 }
 
-p {
-  color: rgba(39, 33, 66, 0.4);
-  display: flex;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.details strong {
-  color: #f65282;
-}
-
 .current-weather {
   font-size: 48px;
 }
