@@ -53,6 +53,18 @@ footer {
   color: rgba(39, 33, 66, 0.4);
 }
 
+.current-weather-icon {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.current-weather-value {
+  font-size: 80px;
+  font-weight: bold;
+}
+
 .current-weather-unit {
   font-size: 28px;
   position: relative;
