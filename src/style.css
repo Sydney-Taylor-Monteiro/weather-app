@@ -67,6 +67,6 @@ footer {
 
 .current-weather-unit {
   font-size: 28px;
-  position: relative;
-  top: auto;
+  position: top;
+  top: -38px;
 }
