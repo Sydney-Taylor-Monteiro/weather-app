@@ -41,3 +41,33 @@ header {
   line-height: 1;
   border-radius: 5px;
 }
+
+main {
+  padding: 30px 0;
+}
+
+.place-date-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.details strong {
+  color: #f65282;
+}
+
+.current-weather {
+  font-size: 48px;
+}
