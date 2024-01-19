@@ -48,5 +48,4 @@ main {
 
 .place-date-time {
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
