@@ -52,3 +52,9 @@ footer {
   padding-top: 15px;
   color: rgba(39, 33, 66, 0.4);
 }
+
+.current-weather-unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+}
