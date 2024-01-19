@@ -87,5 +87,5 @@ main {
 .current-weather-unit {
   font-size: 28px;
   position: relative;
-  top: -38px;
+  top: 38px;
 }
