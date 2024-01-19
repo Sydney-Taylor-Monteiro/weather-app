@@ -59,10 +59,10 @@ main {
 
 .details {
   color: rgba(39, 33, 66, 0.4);
+  display: flex;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  position: relative;
 }
 
 .details strong {
