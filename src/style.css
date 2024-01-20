@@ -78,13 +78,13 @@ footer {
 
 .weather-data-current-container {
   display: flex;
-  font-size: 48px;
 }
 
 .weather-data-icon {
   position: relative;
   font-size: 40px;
   margin-right: 10px;
+  top: 8px;
 }
 
 .weather-data-value {
