@@ -74,6 +74,7 @@ footer {
 
 .weather-data-current-container {
   display: flex;
+  font-size: 48px;
 }
 
 .weather-data-icon {
