@@ -79,3 +79,9 @@ footer {
 .weather-data-current-container {
   display: flex;
 }
+
+.weather-data-current-unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+}
