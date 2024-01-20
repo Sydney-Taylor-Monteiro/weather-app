@@ -77,8 +77,10 @@ footer {
 }
 
 .weather-data-icon {
-  width: 88px;
-  height: 88px;
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
 }
 
 .weather-data-value {
@@ -88,6 +90,6 @@ footer {
 }
 
 .weather-data-unit {
-  font-size: 28px;
+  font-size: 32px;
   margin-top: 6px;
 }
