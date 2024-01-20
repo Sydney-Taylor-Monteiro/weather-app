@@ -90,6 +90,7 @@ footer {
 }
 
 .weather-data-unit {
-  font-size: 32px;
-  margin-top: 6px;
+  font-size: 28px;
+  position: relative;
+  top: -38px;
 }
