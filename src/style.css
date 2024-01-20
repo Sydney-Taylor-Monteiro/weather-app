@@ -83,7 +83,6 @@ footer {
 
 .weather-data-icon {
   position: relative;
-  top: -8px;
   font-size: 40px;
   margin-right: 10px;
 }
@@ -96,5 +95,4 @@ footer {
 .weather-data-unit {
   font-size: 28px;
   position: relative;
-  top: -38px;
 }
