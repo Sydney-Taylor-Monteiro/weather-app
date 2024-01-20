@@ -72,6 +72,10 @@ footer {
   font-weight: 500;
 }
 
+.weather-data-details strong {
+  color: #f65282;
+}
+
 .weather-data-current-container {
   display: flex;
   font-size: 48px;
