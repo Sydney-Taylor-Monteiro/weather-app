@@ -98,8 +98,11 @@ footer {
 }
 
 .multiple-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
-  opacity: 0.5;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
 .multiple-forecast-temperatures {
