@@ -90,3 +90,22 @@ footer {
   position: relative;
   top: 19px;
 }
+
+.multiple-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #31303000;
+}
+
+.multiple-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.multiple-forecast-temperatures {
+  font-size: 13px;
+}
+
+.multiple-forecast-temperature-min {
+  opacity: 0.5;
+}
