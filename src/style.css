@@ -106,7 +106,11 @@ footer {
 }
 
 .multiple-forecast-temperatures {
-  font-size: 13px;
+  text-align: center;
+  color: #f65282;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .multiple-forecast-temperature-min {
