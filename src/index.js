@@ -6,9 +6,9 @@ function search(event) {
 }
 
 function formatDate(date) {
-  let minutes = currentDate.getMinutes();
-  let hours = currentDate.getHours();
-  let day = currentDate.getDay();
+  let minutes = date.getMinutes();
+  let hours = date.getHours();
+  let day = date.getDay();
 
   if (minutes < 10) {
     minutes = `0${minutes}`;
@@ -29,11 +29,13 @@ function formatDate(date) {
   ];
 
   let formattedDay = days[day];
-
   return `${formattedDay} ${hours}:${minutes}`;
 }
 
-let currentDateElement = document.querySelector("current-date");
+let searchForm = document.querySelector("#search-form");
+searchForm.addEventListener("submit", search);
+
+let currentDateELement = document.querySelector("#current-date");
 let currentDate = new Date();
 
-currentDateElement.innerHTML = formatDate(currentDate);
+currentDateELement.innerHTML = formatDate(currentDate);
