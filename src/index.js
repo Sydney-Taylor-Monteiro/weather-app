@@ -1,6 +1,6 @@
 function search(event) {
-  event.preventDefault();
-  console.log(searchInputElement);
+  event, preventDefault();
+  alert("searching");
 }
 
 let searchForm = document.querySelector("search-form");
