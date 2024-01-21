@@ -91,7 +91,7 @@ footer {
   top: 19px;
 }
 
-.mulitple-forecast {
+.mulitple-forecast-container {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
