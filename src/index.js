@@ -36,4 +36,4 @@ function formattedDate(date) {
 let currentDateElement = document.querySelector("current-date");
 let currentDate = new Date();
 
-currentDateElement.innerHTML = formatDate(currentDate);
+currentDateElement.innerHTML = formattedDate(currentDate);
