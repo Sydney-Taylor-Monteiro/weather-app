@@ -5,7 +5,7 @@ function search(event) {
   cityElement.innerHTML = searchInputElement.value;
 }
 
-function formattedDate(date) {
+function formatDate(date) {
   let minutes = currentDate.getMinutes();
   let hours = currentDate.getHours();
   let day = currentDate.getDay();
@@ -36,4 +36,4 @@ function formattedDate(date) {
 let currentDateElement = document.querySelector("current-date");
 let currentDate = new Date();
 
-currentDateElement.innerHTML = formattedDate(currentDate);
+currentDateElement.innerHTML = formatDate(currentDate);
